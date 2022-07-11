@@ -1,0 +1,56 @@
+h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 90px;
+    color: rgb(210, 206, 125);
+}
+h5{
+    text-align: center;
+    /* padding: 10px; */
+    color: rgb(210, 206, 125);
+}
+
+#first{
+    background: url('./lolbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    position: relative;
+    border-top: 1px solid rgb(215, 223, 149);
+    border-bottom: 1px solid rgb(215, 223, 149);
+}
+#arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 130px;
+    text-align: center;
+    color: rgb(199, 200, 179);
+}
+
+#home_post{
+    background-color: rgb(47, 42, 36);
+    color: black;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#post{
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid black;
+    background-color: rgb(215, 223, 149);
+}
+
+body{
+    background-color: bisque;
+}
